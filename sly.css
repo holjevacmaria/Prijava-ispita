@@ -1,0 +1,19 @@
+h1 {
+	font-family: Times New Roman;
+	font-size: 8em;
+	text-align: center;
+	
+}
+
+@keyframes animacija1 {
+	from{background-color: #FFBFBB;}
+	to{background-color: #FF8406;}
+}
+
+h1#animacija{
+	width: fixed;
+	height: fixed;
+	background-color:#FF8406;
+	animation-name: animacija1;
+	animation-duration: 4s;
+	animation-fill-mode: forward;

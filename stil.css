@@ -1,0 +1,92 @@
+
+
+#header {
+
+    max-width: auto;
+    height:calc(50vh - 1px);
+    background-image:url('NASL.png');
+    background-repeat:no-repeat;
+    background-attachment:relative;
+    background-size:cover;
+    background-position:center;
+    display:block;
+
+}
+
+#navi {
+    position:relative;
+    width: auto;
+    height:70px;
+    background:#ffffff;
+    border:1px solid #eeeeee;
+    nav-left:
+
+}
+
+
+dialog {
+	color: red;
+}
+.marquee {
+    width: 450px;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 15s linear infinite;
+}
+
+.marquee span:hover {
+    animation-play-state: paused
+}
+
+
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+
+h2 {
+	  text-align: center;
+	  
+}
+div {
+  background-color: white;
+  columns: 3;
+  orphans: 3;
+  page-break-after: unset;
+  quotes: unset;
+  voice-balance: 0;
+  voice-duration: 0;
+  voice-pitch: 0;
+  voice-pitch-range: 0;
+  voice-rate: 0;
+  voice-stress: 0;
+  voice-volume: 0;
+  page-break-after:0;
+  rest-after: 0;
+  mark-after: 0;
+  mark-before: 0;
+  page-break-before: 0;
+  rest-before: 0;
+  page-break-inside: 0;
+  color: red;
+
+}
+
+p {
+  background-color: white;
+  text-align: center;
+}
+
+p:first-child {
+  margin-top: 0;
+}
+
+  filter: drop-shadow(16px 16px 20px blue);
